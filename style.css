@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 148vh; /* Fills entire viewport height */
+    background: linear-gradient(#9477cb,#c0aee0 ); /* Purple gradient with opacity change */
+  
+}
+  
+  .container {
+    display: flex; /* Removes for vertical stacking */
+    flex-direction: column; /* Stacks divs vertically */
+    align-items:flex-start; /* Centers divs horizontally */
+    /* Adds 50px top and left margin with auto centering */
+  }
+  
+  .blue-box,
+  .green-box
+   {
+    width: 800px; /* Reduced width */
+    height : 450px;
+    margin-left: 40px;
+  }
+
+  .red-box{
+    height:340px;
+    margin-left: 40px;
+    width: 800px
+  }
+
+.white-box{
+    position: absolute; /* Or relative */
+  top: 200px; /* Adjust position as needed */
+  left: 720px; /* Adjust position as needed */
+  width: 800px;
+  height: 600px;
+  background-color: white; /* Semi-transparent blue */
+  z-index: 1; /* Higher z-index appears on top */
+
+}
+.w1{
+    display:flex;
+}
+
+.pink-box{
+    position: absolute; /* Or relative */
+  top: 800px; /* Adjust position as needed */
+  left: 720px; /* Adjust position as needed */
+  width: 800px;
+  height: 442px;
+  background-color: rgb(26, 4, 83); /* Semi-transparent blue */
+  z-index: 1; /* Higher z-index appears on top */
+}
+
+      
+  
+  
+  .blue-box {
+    background-color: rgb(26, 4, 83);
+  }
+
+  .BTN{
+    color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer
+  }
+  
+  .green-box {
+    background-color: #3C51D5;
+  }
+
+  .ref{
+    display: flex;
+    margin-right: 50px;
+    color: white;
+    font-weight: 600;
+
+  }
+  .p2{
+    display: flex;
+    color: white;
+    font-weight: 400;
+  }
+  .red-box {
+    background-color: white;
+  }
+
+  #A{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 700;
+    
+  }
+
+    
+    
+  
+  .b {
+    font-weight: 500;
+    font-size: 40px;
+    color :aliceblue;
+    margin-top: 100px;
+    margin-left: 40px
+    ;
+  }
+  .c{
+    font-weight: 500;
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: -45px;
+    margin-left: 40px;
+
+    
+    
+  }
+
+
+  img{
+    width: 200px;
+    
+    margin-left: 50px;
+  }
+
+  .e{
+    padding: 10px;
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-color: white;
+
+  }
+  .F{
+    display:flex;
+    flex-direction: row;
+    border-radius: 100%;
+    width: 70px;
+    height: auto;
+  }
